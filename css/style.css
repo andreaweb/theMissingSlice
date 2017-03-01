@@ -1,5 +1,15 @@
+body{
+	font-family: sans-serif;
+	text-align: center;
+}
+h2{
+	background-color: #f06;
+	color: gold;
+}
 .container{
   display: flex;
+  margin-top: 40px;
+  margin-bottom: 130px
 }
 .pie{
   position: relative;

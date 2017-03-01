@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html >
 <head>
-  <meta charset="UTF-8">
-  <title>The Missing Slice</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
+<meta charset="UTF-8">
+<title>The Missing Slice</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="http://leaverou.github.io/conic-gradient/conic-gradient.js"></script>
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-<script src="http://leaverou.github.io/conic-gradient/conic-gradient.js"></script>
+  
 
 <!-- Source: https://www.youtube.com/watch?v=eVnUDTtOLE0 -->
-
+<h2>Skewed Pseudo element</h2>
 <div class="container">
   <!-- SKEWED PSEUDO ELEMENT -->
   <!-- 25% - 3:12 -->
@@ -32,7 +28,8 @@
   <div class="pie pie4"></div>
 </div>
 
-<div class="container">
+<h2>Rotate Pseudo element</h2>
+<div class="container">  
   <!--ROTATE PSEUDO ELEMENT -->
   <!-- 11:49 - doesnt require a before -->
   <div class="pie-rotate"></div>
@@ -50,6 +47,7 @@
   <div class="pie-rotate pie-animate"></div>
 </div>
 
+<h2>SVG Dasharray</h2>
 <div class="container">
   <!--svg dasharrray-->
   <!-- 28:29 - change the value to any percentage by changing the first value in stroke-dasharray-->
@@ -64,6 +62,7 @@
   </svg>
 </div>
 
+<h2>Conic Gradient - requires polyfill</h2>
 <div class="container">
   <!-- conic gradients-->
   <!-- 36:01 - just change 1 line, but it needs polyfill -->
